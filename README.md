@@ -37,3 +37,9 @@ rom
 9) This will open up the form which would have a text box for entering the spoken english paragraph along with the submit button.
 10) Please enter the paragraph and press submit button. You would be redirected to the next page which would give an output in the form of dictionary with the key Written English Paragraph and the value as the converted paragraph in Written English.
 
+#### Uploads:-
+
+1) Library - Spoken2Writtenenglish.py which can be imported from other .py files
+2) Background application running for the REST API - app.py
+3) HTML form - The .zip folder templates.zip which needs to be unzipped and saved in a folder templates which would contain the index.html file that would be opened up in a browser when app.py would be run from the command prompt.
+
