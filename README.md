@@ -12,7 +12,7 @@ This is a library which converts a paragraph of spoken english to written englis
 
 #### Important feature but yet to implement:-
 
-Features which are important but are yet to be implemented are the dynamic set of rules which would essentially mean that the user can update a rule for converting a phrase in spoken english to written english dynalically while using the library through a method of the library.
+Features which are important but are yet to be implemented are the dynamic set of rules which would essentially mean that the user can update a rule for converting a phrase in spoken english to written english dynamically while using the library through a method of the library.
 rom 
 #### Instructions for using code as a library:-
 
