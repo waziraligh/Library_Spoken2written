@@ -26,16 +26,16 @@ rom
    b) word_check function takes a word as an input and returns only the word if the word doesn't contain commas and full-stops otherwise it returns the actual word along with         comma and/or full stop.
 5) In the calling program, wherein the class conversion from the library Spoken2WrittenEnglish is imported, an instance of the class conversion of the library needs to be created and the method convert needs to be called using the command object_instance.convert(). After that the output would be the input paragraph followed by the output converted paragraph.
 
-#### Instructions for using the REST API:-
+#### Instructions for using the REST API on a local machine:-
 
-1) As known, REST API is an interface around a function or a model which can be used to handle requests from the model from a remote box or from the client side. I hon ave used FLASK API in this project.
+1) As known, REST API is an interface around a function or a model which can be used to handle requests from the model from a remote box or from the client side. I have used FLASK API in this project.
 2) I have this app.py which is a python file that contains the class conversion and the two functions and the two functions Conversion_rules and word_check. This app.py file also handles the requests from an HTML form whenever the submit button is pressed in the form. On pressing the button submit, it would trigger the predict function. The app.py file whenever called runs the application on the port 8080 on a local host.
 3) The predict function calls the class conversion and creates an object of the same and then calls the method convert with the paragraph collected from the HTML form through the submit button over there.
 4) The output of the convert method is returned as a json file in the form a dictionary which has the key as Written English Paragraph and the value as the converted paragraph.
 5) A simple form named index.html is created which takes the Spoken English paragraph from the user. This html file is saved in the folder template.
 6) For running the REST API, please open command prompt and change the directory to the folder where the app.py and template folders are present.
 7) In the command prompt, please type python3 app.py which would show you the informations related to the port where this application is running.
-8) Now, open up your web browser and paste the ip address with the port from your command prompt and then type /index
+8) Now, open up your web browser and paste the ip address with the port from your command prompt and then type /index in the address bar following the ip address and the port      number.
 9) This will open up the form which would have a text box for entering the spoken english paragraph along with the submit button.
 10) Please enter the paragraph and press submit button. You would be redirected to the next page which would give an output in the form of dictionary with the key Written English Paragraph and the value as the converted paragraph in Written English.
 
@@ -43,5 +43,5 @@ rom
 
 1) Library - Spoken2Writtenenglish.py which can be imported from other .py files
 2) Background application running for the REST API - app.py
-3) HTML form - The .zip folder templates.zip which needs to be unzipped and saved in a folder templates which would contain the index.html file that would be opened up in a browser when app.py would be run from the command prompt.
+3) HTML form - The .zip folder templates.zip which needs to be unzipped and saved in a folder templates which would contain the index.html file that would be opened up in a        browser when app.py would be run from the command prompt.
 
