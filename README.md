@@ -20,7 +20,9 @@ rom
 2) It has the class conversion which has two methods __init__ which takes an input of the object of the class itself and convert which takes inputs as objects of the class and the paragraph of spoken english which needs to be converted. 
 3) The class conversion's method convert does the conversion of the spoken english paragraph and prints out the input paragraph and the output paragraph at the end.
 4) There are a couple of other functions defined in the library itself which are conversion_rules and word_check.
+
    a) Conversion_rules function doesn't take any argument. It defines a static set of rules for the purpose of conversion of spoken English to written English and returns the         rules to the calling function.
+   
    b) word_check function takes a word as an input and returns only the word if the word doesn't contain commas and full-stops otherwise it returns the actual word along with         comma and/or full stop.
 5) In the calling program, wherein the class conversion from the library Spoken2WrittenEnglish is imported, an instance of the class conversion of the library needs to be created and the method convert needs to be called using the command object_instance.convert(). After that the output would be the input paragraph followed by the output converted paragraph.
 
