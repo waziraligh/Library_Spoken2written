@@ -8,6 +8,7 @@ This is a library which converts a paragraph of spoken english to written englis
 1) Conversion of a number between one to hundred in text to it's corresponding integer.
 2) Conversion of words such as C M, P M, A M, D M and H T M L to words CM, PM, AM, DM and HTML respectively.
 3) Conversion of phrases such as triple A, quadrapule B, double C to AAA, BBBB and CC respectively.
+4) Conversion of two dollars to $2 and three dollars to $3.
 
 #### Important feature but yet to implement:-
 
